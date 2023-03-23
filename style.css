@@ -1,4 +1,6 @@
 body{
+    display: flex;
+    flex-wrap: wrap;
     background: url('https://media.istockphoto.com/id/1179145393/photo/explosion-of-colored-powder-on-black-background.jpg?b=1&s=170667a&w=0&k=20&c=HO77es_qZlCT7zHtzR0S5LL-oVtyAiaMqV7FRXEojnE=');
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,4 +14,17 @@ h1{
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+@media (max-width: 576px){
+    body{
+        height: 33rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-size: 3rem;
+    }
 }
