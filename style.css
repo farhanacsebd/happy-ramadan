@@ -1,0 +1,15 @@
+body{
+    background: url('https://media.istockphoto.com/id/1179145393/photo/explosion-of-colored-powder-on-black-background.jpg?b=1&s=170667a&w=0&k=20&c=HO77es_qZlCT7zHtzR0S5LL-oVtyAiaMqV7FRXEojnE=');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1{ 
+    text-align: center;
+    font-size: 9rem;
+    font-family: cursive;
+    background-image: url('https://i.pinimg.com/originals/c0/c8/c0/c0c8c0f700208d65213b8611d64944c2.gif');
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
